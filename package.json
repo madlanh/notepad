@@ -1,0 +1,16 @@
+{
+  "name": "opennotepad",
+  "version": "1.0.0",
+  "description": "This program implements Object-Ortiented Programming architecture for the backend",
+  "main": "index.js",
+  "scripts": {
+    "update": "npx tailwindcss -i ./src/main/resources/static/css/input.css -o ./src/main/resources/static/css/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
